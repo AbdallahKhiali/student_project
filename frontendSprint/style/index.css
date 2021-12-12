@@ -1,0 +1,103 @@
+*{
+  margin: 0;
+  padding: 0;   
+}
+
+.navbar{
+    height: 10vh;
+    position: absolute;
+}
+.nav_logo{
+    height: 100%;
+    margin-left: 10px ;
+    
+}
+.login_container{
+    width: 100%;
+    height: 100vh;
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+    background: rgb(42,184,217);
+    background: linear-gradient(222deg, rgba(42, 185, 217, 0.585) 24%, rgba(188,15,231,1) 100%);
+}
+
+.login_box{
+    background-color: #fff;
+    height: 75vh;
+    width: 325px;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+
+}
+#login_header{
+
+    text-align: center;
+    height:20%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.login_form{
+    display: flex;
+    flex-direction:column;
+    height: 80%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.form_component_container{
+    margin: 10px 0;
+    padding: 05px 0;
+}
+
+.form_label{
+    margin: 5px 15px  ;
+    color: #999;
+    font-size: 12px;
+}
+
+
+
+.form_input{
+    outline: none;
+    padding: 10px 0;
+    width: 90%;
+    margin-left: 15px  ;   
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    font-size: 14px;
+    color: #bbb;
+}
+.form_link{
+    text-decoration: none;
+    color: #000;
+    margin: 15px auto 0 ;
+    letter-spacing: 3px;
+    font-size: 12px;
+}
+.form_button{
+    background-color: #fff;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 25px auto ;
+    width: 120px;
+    padding: 10px 25px;
+    border-radius: 25px;
+    cursor: pointer;
+    background-image: linear-gradient(to right, #2ab8d9, #3ab6df, #4cb3e4, #5eb0e7, #70ade8, #6da6ee, #719ef3, #7a95f5, #7f83fb, #8e6dfb, #a44ff4, #bc0fe7);
+    color: white;
+    text-transform: uppercase;
+    font-size: 12px;
+}
