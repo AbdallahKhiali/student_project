@@ -1,0 +1,47 @@
+
+._mypost {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 25px;
+    font-weight: 300;
+    font-family: "Poppins", sans-serif;
+    cursor: pointer;
+    background-color: #fafafa;
+    background-color: coral;
+    width: 100%;
+    margin: 5px 0;
+}
+
+
+._mypost_info {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    flex: 10;
+    height: 100%;
+    padding: 0px 25px;
+}
+
+._mypost_title {
+    width: 40%;
+    text-transform: uppercase;
+    overflow: hidden;
+}
+._mypost_company , ._mypost_remote , ._mypost_categorie , ._mypost_location {
+    width: 10%;
+    text-transform: uppercase;
+    overflow: hidden;
+    font-size: 12px;
+}
+._mypost_company {
+    width: 20%;
+
+} 
+
+._mypost_link {
+    color: #000;
+    text-align: center;
+    margin: 0 10px;
+}

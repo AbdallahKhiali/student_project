@@ -1,0 +1,30 @@
+.navbar{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    flex: 3;
+    padding: 0 25px;
+
+}
+
+.nav_actions{
+    flex: 2;
+    gap: 20px;
+    list-style: none;
+    display: flex;
+    padding-left: 25px;
+    font-size: 14px;
+
+}
+
+.link{
+    color: inherit;
+    text-decoration: none;
+}
+
+.nav_button{
+    width: fit-content;
+    padding: 10px 25px;
+    font-size: 14px;
+    cursor: pointer;
+}

@@ -1,0 +1,19 @@
+
+._sort{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    list-style-type: none;
+    background-color: lightcoral;
+}
+._sort_item{
+    color: white;
+    font-family: "Poppins",sans-serif;
+    margin: 0 10px;
+    padding: 10px;
+    border: 0px;
+    cursor: pointer;
+}
+
+

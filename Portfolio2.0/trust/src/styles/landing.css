@@ -1,0 +1,48 @@
+.landing{
+    display: flex;
+    height: 100vh;
+}
+.landing-bg{
+    width: 50%;
+    height: 100%;
+    background-image: url("../assets/bg.webp");
+}
+
+.landing-content{
+    width: 50%;
+    height: 100%;
+}
+
+.landing-text{
+    padding: 50px;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.landing-text-header{
+    width: 450px;
+    padding: 25px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.landing-text-subheader{
+    color: #aaa;
+    font-size: 12px;
+}
+
+.landing-text-button{
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 25px;
+    background-color: #FFF3F3;
+    padding: 15px 25px;
+    color: #666;
+    cursor: pointer;
+}

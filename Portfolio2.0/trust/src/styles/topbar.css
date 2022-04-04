@@ -1,0 +1,30 @@
+
+.topbar {
+    background-color: #fff;
+    height: 10vh;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+._topbar_link {
+    color: #666;
+    text-decoration: none;
+    /* padding: 0 10px; */
+    margin: 0 10px;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 12px;
+}
+
+._topbar_btn {
+    height: 30px;
+    background-color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    margin: 0 15px;
+    display: grid;
+    place-items: center;
+    padding: 0 20px;
+}

@@ -1,0 +1,27 @@
+._listmodal {
+    height: 500px;
+    width: fit-content;
+    overflow-y: scroll;
+    position: absolute;
+    left: 50%;
+    top: 55%;
+    transform: translate(-50%, -50%);
+    background-color: lightcoral;
+    display: flex;
+    flex-direction: column;
+    font-family: "Poppins",sans-serif;
+}
+._listmodal::-webkit-scrollbar{
+    width: 0px;
+}
+
+._list_element{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    height: 45px;
+    margin: 5px;
+    background-color: #fafafa;
+    gap: 25px;
+    font-size: 14px;
+}
